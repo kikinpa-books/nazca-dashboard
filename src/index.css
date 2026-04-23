@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  /* Thin scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: #000; }
+  ::-webkit-scrollbar-thumb { background: #71717a; }
+
+  /* Remove default input styles */
+  input { outline: none; }
+  input::placeholder { color: #71717a; }
+
+  /* Blinking cursor animation */
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  .cursor-blink { animation: blink 1.2s step-end infinite; }
+
+  /* Scanline overlay effect */
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+  }
+}
