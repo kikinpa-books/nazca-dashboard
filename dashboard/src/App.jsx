@@ -1,131 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
-import { Phone, Mail, ChevronUp, ChevronDown, ChevronsUpDown } from 'lucide-react'
-
-// ─────────────────────────────────────────────────────────────────────────────
-// LEAD DATA  /  paste your real owner data here
-// ─────────────────────────────────────────────────────────────────────────────
-const leads = [
-  {
-    id: 'NZ-001',
-    address: '4821 NW 103RD AVE, PLANTATION FL 33324',
-    city: 'PLANTATION',
-    owner: { name: 'MARCO DELGADO',  phone: '+19547741290', email: 'mdelgado@email.com' },
-    type: 'UNPERMITTED_STRUCT',
-    severity: 1,
-    status: 'OPEN',
-    timestamp: '2026-04-18',
-  },
-  {
-    id: 'NZ-002',
-    address: '1130 SW 78TH TER, PLANTATION FL 33317',
-    city: 'PLANTATION',
-    owner: { name: 'LINDA FERREIRA', phone: '+19543882047', email: 'lferreira@gmail.com' },
-    type: 'EXPIRED_PERMIT_STRUCT',
-    severity: 1,
-    status: 'OPEN',
-    timestamp: '2026-04-19',
-  },
-  {
-    id: 'NZ-003',
-    address: '8340 NW 3RD ST, PEMBROKE PINES FL 33024',
-    city: 'PEMBROKE',
-    owner: { name: 'CARLOS VEGA',    phone: '+19542916633', email: 'cvega@outlook.com' },
-    type: 'WORK_WITHOUT_PERMIT',
-    severity: 1,
-    status: 'OPEN',
-    timestamp: '2026-04-20',
-  },
-  {
-    id: 'NZ-004',
-    address: '10221 TAFT ST, PEMBROKE PINES FL 33026',
-    city: 'PEMBROKE',
-    owner: { name: 'DIANA MORALES',  phone: '+19548874411', email: 'dmorales@email.com' },
-    type: 'UNPERMITTED_ADDITION',
-    severity: 2,
-    status: 'OPEN',
-    timestamp: '2026-04-20',
-  },
-  {
-    id: 'NZ-005',
-    address: '6612 STIRLING RD, DAVIE FL 33314',
-    city: 'DAVIE',
-    owner: { name: 'ROBERT NUNEZ',   phone: '+19547723388', email: 'rnunez@gmail.com' },
-    type: 'EXPIRED_PERMIT_RESIDENTIAL',
-    severity: 2,
-    status: 'OPEN',
-    timestamp: '2026-04-21',
-  },
-  {
-    id: 'NZ-006',
-    address: '4190 PINE ISLAND RD, DAVIE FL 33328',
-    city: 'DAVIE',
-    owner: { name: 'PATRICIA LEON',  phone: '+19541038822', email: 'pleon@yahoo.com' },
-    type: 'EXPIRED_PERMIT_MECH',
-    severity: 2,
-    status: 'OPEN',
-    timestamp: '2026-04-21',
-  },
-  {
-    id: 'NZ-007',
-    address: '2255 NW 136TH AVE, SUNRISE FL 33323',
-    city: 'SUNRISE',
-    owner: { name: 'JAMES CASTILLO', phone: '+19549906612', email: 'jcastillo@email.com' },
-    type: 'CONSTRUCTION_WITHOUT_PERMIT',
-    severity: 3,
-    status: 'OPEN',
-    timestamp: '2026-04-22',
-  },
-  {
-    id: 'NZ-008',
-    address: '9830 W OAKLAND PARK BLVD, SUNRISE FL 33351',
-    city: 'SUNRISE',
-    owner: { name: 'ANGELA PEREZ',   phone: '+19543344501', email: 'aperez@gmail.com' },
-    type: 'EXPIRED_PERMIT_ELEC',
-    severity: 3,
-    status: 'OPEN',
-    timestamp: '2026-04-22',
-  },
-  {
-    id: 'NZ-009',
-    address: '7700 SW 30TH ST, DAVIE FL 33314',
-    city: 'DAVIE',
-    owner: { name: 'MIGUEL SANTOS',  phone: '+19542117730', email: 'msantos@outlook.com' },
-    type: 'PERMIT_LAPSED_POOL',
-    severity: 3,
-    status: 'ON_HOLD',
-    timestamp: '2026-04-17',
-  },
-  {
-    id: 'NZ-010',
-    address: '350 N UNIVERSITY DR, PLANTATION FL 33324',
-    city: 'PLANTATION',
-    owner: { name: 'HELEN VARGAS',   phone: '+19547889944', email: 'hvargas@email.com' },
-    type: 'PERMIT_LAPSED_ROOF',
-    severity: 4,
-    status: 'RESOLVED',
-    timestamp: '2026-04-15',
-  },
-  {
-    id: 'NZ-011',
-    address: '11900 SHERIDAN ST, PEMBROKE PINES FL 33026',
-    city: 'PEMBROKE',
-    owner: { name: 'TONY REYES',     phone: '+19546620183', email: 'treyes@gmail.com' },
-    type: 'EXPIRED_PERMIT_PLUMB',
-    severity: 3,
-    status: 'OPEN',
-    timestamp: '2026-04-16',
-  },
-  {
-    id: 'NZ-012',
-    address: '2800 S UNIVERSITY DR, DAVIE FL 33328',
-    city: 'DAVIE',
-    owner: { name: 'ISABEL ROMERO',  phone: '+19541904477', email: 'iromero@yahoo.com' },
-    type: 'UNPERMITTED_STRUCT',
-    severity: 1,
-    status: 'OPEN',
-    timestamp: '2026-04-14',
-  },
-]
+import { Phone, Mail, ExternalLink, ChevronUp, ChevronDown, ChevronsUpDown, MapPin } from 'lucide-react'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CONFIG
@@ -137,6 +11,14 @@ const SEV = {
   2: { label: '[** ]', tag: 'ELEVATED', color: '#a1a1aa' },
   3: { label: '[*  ]', tag: 'GUARDED',  color: '#71717a' },
   4: { label: '[   ]', tag: 'LOW',      color: '#3f3f46' },
+}
+
+const BCPA_STATUS_LABEL = {
+  found:            null,
+  not_found:        'NO_BCPA',
+  multiple_results: 'MULTI_MATCH',
+  error:            'LOOKUP_ERR',
+  '':               null,
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -157,10 +39,16 @@ function fmtClock(d) {
 }
 
 function fmtPhone(raw) {
+  if (!raw) return null
   const d = raw.replace(/\D/g, '').slice(-10)
-  return d.length === 10
-    ? `(${d.slice(0,3)}) ${d.slice(3,6)}-${d.slice(6)}`
-    : raw
+  return d.length === 10 ? `(${d.slice(0,3)}) ${d.slice(3,6)}-${d.slice(6)}` : raw
+}
+
+function mailingLine(owner) {
+  const { mailing_street, mailing_city, mailing_state, mailing_zip } = owner
+  if (!mailing_street) return null
+  const cityLine = [mailing_city, mailing_state].filter(Boolean).join(', ')
+  return [mailing_street, cityLine, mailing_zip].filter(Boolean).join(' ')
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -218,12 +106,34 @@ function GhlButton({ id, synced, onSync }) {
   )
 }
 
+function LoadingState() {
+  return (
+    <div className="flex-1 flex items-center justify-center">
+      <span className="text-zinc-600 text-xs tracking-widest animate-pulse">LOADING_INTEL...</span>
+    </div>
+  )
+}
+
+function ErrorState({ message }) {
+  return (
+    <div className="flex-1 flex flex-col items-center justify-center gap-2">
+      <span className="text-zinc-600 text-xs tracking-widest">FEED_OFFLINE</span>
+      <span className="text-zinc-700 text-[10px]">{message}</span>
+    </div>
+  )
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 // MAIN APP
 // ─────────────────────────────────────────────────────────────────────────────
 export default function App() {
   const now      = useClock()
   const inputRef = useRef(null)
+
+  const [leads,       setLeads]       = useState([])
+  const [loadState,   setLoadState]   = useState('loading')
+  const [loadError,   setLoadError]   = useState('')
+  const [generatedAt, setGeneratedAt] = useState('')
 
   const [city,    setCity]    = useState('ALL')
   const [query,   setQuery]   = useState('')
@@ -233,13 +143,31 @@ export default function App() {
   const [history, setHistory] = useState([])
   const [histIdx, setHistIdx] = useState(-1)
 
-  // KPIs
+  // ── Load leads.json ────────────────────────────────────────────────────────
+  useEffect(() => {
+    fetch('./leads.json')
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        return r.json()
+      })
+      .then(data => {
+        setLeads(data.leads ?? [])
+        setGeneratedAt(data.generated_at ?? '')
+        setLoadState('ok')
+      })
+      .catch(err => {
+        setLoadError(err.message)
+        setLoadState('error')
+      })
+  }, [])
+
+  // ── KPIs ──────────────────────────────────────────────────────────────────
   const totalIntel  = leads.length
   const activeSites = new Set(leads.filter(l => l.status !== 'RESOLVED').map(l => l.city)).size
   const criticalCt  = leads.filter(l => l.severity === 1).length
   const syncedCt    = synced.size
 
-  // Filter + sort pipeline
+  // ── Filter + sort pipeline ────────────────────────────────────────────────
   const visible = useMemo(() => {
     const q = query.toLowerCase().trim()
     return leads
@@ -247,12 +175,14 @@ export default function App() {
       .filter(l => {
         if (!q) return true
         return (
-          l.address.toLowerCase().includes(q)     ||
-          l.owner.name.toLowerCase().includes(q)  ||
-          l.owner.email.toLowerCase().includes(q) ||
-          l.type.toLowerCase().includes(q)        ||
-          l.city.toLowerCase().includes(q)        ||
-          l.id.toLowerCase().includes(q)
+          l.address.toLowerCase().includes(q)             ||
+          l.owner.name.toLowerCase().includes(q)          ||
+          (l.owner.email || '').toLowerCase().includes(q) ||
+          l.type.toLowerCase().includes(q)                ||
+          l.city.toLowerCase().includes(q)                ||
+          l.id.toLowerCase().includes(q)                  ||
+          l.case_number.toLowerCase().includes(q)         ||
+          (l.parcel_id || '').toLowerCase().includes(q)
         )
       })
       .sort((a, b) => {
@@ -269,7 +199,7 @@ export default function App() {
         if (va > vb) return sortDir === 'asc' ?  1 : -1
         return 0
       })
-  }, [city, query, sortCol, sortDir])
+  }, [leads, city, query, sortCol, sortDir])
 
   function handleSort(col) {
     if (sortCol === col) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
@@ -317,6 +247,11 @@ export default function App() {
         <div className="text-right shrink-0">
           <div className="text-zinc-500 text-[10px] tracking-[0.3em]">POWERED BY THE LINAN GROUP</div>
           <div className="text-zinc-600 text-[10px] mt-0.5 tabular-nums">{fmtClock(now)}</div>
+          {generatedAt && (
+            <div className="text-zinc-700 text-[9px] mt-0.5 tabular-nums">
+              FEED: {generatedAt.replace('T', ' ').replace('Z', ' UTC')}
+            </div>
+          )}
         </div>
       </header>
 
@@ -332,7 +267,7 @@ export default function App() {
         <span className="text-zinc-700 text-xs hidden sm:inline">|</span>
         <KpiBlock label="GHL_SYNCED"       value={String(syncedCt).padStart(2,'0')} />
         <span className="text-zinc-700 text-xs hidden sm:inline">|</span>
-        <KpiBlock label="SYSTEM_STATUS"    value="SECURE" />
+        <KpiBlock label="SYSTEM_STATUS"    value={loadState === 'ok' ? 'ONLINE' : loadState === 'loading' ? 'SYNCING' : 'OFFLINE'} />
       </div>
 
       <HRule />
@@ -362,95 +297,142 @@ export default function App() {
 
       <HRule dim />
 
-      {/* LEDGER TABLE */}
-      <div className="flex-1 overflow-auto">
-        <table className="w-full border-collapse" style={{ minWidth: '860px' }}>
-          <thead>
-            <tr className="border-b border-zinc-800 sticky top-0 bg-black z-10">
-              <Th col="id"       label="OP_ID"         sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[72px]" />
-              <Th col="address"  label="ADDRESS"        sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[220px]" />
-              <Th col="owner"    label="OWNER_INTEL"    sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[200px]" />
-              <Th col="type"     label="VIOLATION_TYPE" sortCol={sortCol} dir={sortDir} onSort={handleSort} />
-              <Th col="severity" label="SEVERITY"       sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[110px]" />
-              <th className="text-left py-2 px-3 text-[10px] text-zinc-500 tracking-widest w-[130px]">ACTION</th>
-            </tr>
-          </thead>
-          <tbody>
-            {visible.length === 0 ? (
-              <tr>
-                <td colSpan={6} className="py-16 text-center text-zinc-600 text-xs tracking-widest">
-                  NO_RECORDS_MATCHED // ADJUST_FILTER_PARAMETERS
-                </td>
+      {/* CONTENT */}
+      {loadState === 'loading' && <LoadingState />}
+      {loadState === 'error'   && <ErrorState message={loadError} />}
+
+      {loadState === 'ok' && (
+        <div className="flex-1 overflow-auto">
+          <table className="w-full border-collapse" style={{ minWidth: '900px' }}>
+            <thead>
+              <tr className="border-b border-zinc-800 sticky top-0 bg-black z-10">
+                <Th col="id"       label="OP_ID"         sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[100px]" />
+                <Th col="address"  label="ADDRESS"        sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[220px]" />
+                <Th col="owner"    label="OWNER_INTEL"    sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[210px]" />
+                <Th col="type"     label="VIOLATION_TYPE" sortCol={sortCol} dir={sortDir} onSort={handleSort} />
+                <Th col="severity" label="SEVERITY"       sortCol={sortCol} dir={sortDir} onSort={handleSort} className="w-[110px]" />
+                <th className="text-left py-2 px-3 text-[10px] text-zinc-500 tracking-widest w-[130px]">ACTION</th>
               </tr>
-            ) : (
-              visible.map((lead, i) => {
-                const sev  = SEV[lead.severity]
-                const even = i % 2 === 0
-                return (
-                  <tr
-                    key={lead.id}
-                    className={`border-b border-zinc-900 transition-colors duration-100 ${even ? 'bg-black' : 'bg-[#080808]'} hover:bg-zinc-900/50`}
-                  >
-                    {/* OP_ID */}
-                    <td className="py-3 px-3 text-xs font-semibold text-[#F8F8FF] whitespace-nowrap align-top">
-                      {lead.id}
-                    </td>
+            </thead>
+            <tbody>
+              {visible.length === 0 ? (
+                <tr>
+                  <td colSpan={6} className="py-16 text-center text-zinc-600 text-xs tracking-widest">
+                    NO_RECORDS_MATCHED // ADJUST_FILTER_PARAMETERS
+                  </td>
+                </tr>
+              ) : (
+                visible.map((lead, i) => {
+                  const sev      = SEV[lead.severity] ?? SEV[4]
+                  const even     = i % 2 === 0
+                  const phone    = fmtPhone(lead.owner.phone)
+                  const mailing  = mailingLine(lead.owner)
+                  const bcpaBadge = BCPA_STATUS_LABEL[lead.bcpa_lookup_status ?? '']
 
-                    {/* ADDRESS */}
-                    <td className="py-3 px-3 align-top">
-                      <div className="text-[11px] text-zinc-300 leading-snug">{lead.address}</div>
-                      <div className="text-[9px] text-zinc-600 tracking-widest mt-0.5">{lead.city}</div>
-                    </td>
+                  return (
+                    <tr
+                      key={lead.id}
+                      className={`border-b border-zinc-900 transition-colors duration-100 ${even ? 'bg-black' : 'bg-[#080808]'} hover:bg-zinc-900/50`}
+                    >
+                      {/* OP_ID */}
+                      <td className="py-3 px-3 align-top">
+                        <div className="text-xs font-semibold text-[#F8F8FF] whitespace-nowrap">{lead.id}</div>
+                        {lead.case_url ? (
+                          <a
+                            href={lead.case_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={e => e.stopPropagation()}
+                            className="flex items-center gap-1 text-[9px] text-zinc-600 hover:text-zinc-400 mt-1 transition-colors"
+                          >
+                            <ExternalLink size={8} strokeWidth={1.5} />
+                            <span>PORTAL</span>
+                          </a>
+                        ) : (
+                          <div className="text-[9px] text-zinc-800 mt-1">{lead.case_number}</div>
+                        )}
+                      </td>
 
-                    {/* OWNER_INTEL */}
-                    <td className="py-3 px-3 align-top">
-                      <div className="text-[11px] font-medium text-[#F8F8FF] mb-2 leading-snug">
-                        {lead.owner.name}
-                      </div>
-                      <a
-                        href={`tel:${lead.owner.phone}`}
-                        onClick={e => e.stopPropagation()}
-                        className="flex items-center gap-1.5 text-[10px] text-zinc-400 hover:text-[#F8F8FF] transition-colors mb-1.5 group"
-                      >
-                        <Phone size={10} strokeWidth={1.5} className="shrink-0" />
-                        <span className="tracking-wide">{fmtPhone(lead.owner.phone)}</span>
-                      </a>
-                      <a
-                        href={`mailto:${lead.owner.email}`}
-                        onClick={e => e.stopPropagation()}
-                        className="flex items-center gap-1.5 text-[10px] text-zinc-400 hover:text-[#F8F8FF] transition-colors group"
-                      >
-                        <Mail size={10} strokeWidth={1.5} className="shrink-0" />
-                        <span className="tracking-wide truncate" style={{ maxWidth: '150px' }}>{lead.owner.email}</span>
-                      </a>
-                    </td>
+                      {/* ADDRESS */}
+                      <td className="py-3 px-3 align-top">
+                        <div className="text-[11px] text-zinc-300 leading-snug">{lead.address}</div>
+                        <div className="text-[9px] text-zinc-600 tracking-widest mt-0.5">{lead.city}</div>
+                        {lead.parcel_id && (
+                          <div className="text-[9px] text-zinc-700 mt-0.5">PCL: {lead.parcel_id}</div>
+                        )}
+                        {bcpaBadge && (
+                          <div className="text-[8px] text-amber-700 tracking-widest mt-1">[{bcpaBadge}]</div>
+                        )}
+                      </td>
 
-                    {/* VIOLATION TYPE */}
-                    <td className="py-3 px-3 text-[10px] text-zinc-400 align-top whitespace-nowrap tracking-wide">
-                      {lead.type}
-                    </td>
+                      {/* OWNER_INTEL */}
+                      <td className="py-3 px-3 align-top">
+                        <div className="text-[11px] font-medium text-[#F8F8FF] mb-2 leading-snug">
+                          {lead.owner.name}
+                        </div>
+                        {phone && (
+                          <a
+                            href={`tel:${lead.owner.phone}`}
+                            onClick={e => e.stopPropagation()}
+                            className="flex items-center gap-1.5 text-[10px] text-zinc-400 hover:text-[#F8F8FF] transition-colors mb-1.5"
+                          >
+                            <Phone size={10} strokeWidth={1.5} className="shrink-0" />
+                            <span className="tracking-wide">{phone}</span>
+                          </a>
+                        )}
+                        {lead.owner.email && (
+                          <a
+                            href={`mailto:${lead.owner.email}`}
+                            onClick={e => e.stopPropagation()}
+                            className="flex items-center gap-1.5 text-[10px] text-zinc-400 hover:text-[#F8F8FF] transition-colors mb-1.5"
+                          >
+                            <Mail size={10} strokeWidth={1.5} className="shrink-0" />
+                            <span className="tracking-wide truncate" style={{ maxWidth: '150px' }}>{lead.owner.email}</span>
+                          </a>
+                        )}
+                        {mailing && (
+                          <div className="flex items-start gap-1.5 text-[9px] text-zinc-600 mt-1">
+                            <MapPin size={9} strokeWidth={1.5} className="shrink-0 mt-px" />
+                            <span className="leading-snug">{mailing}</span>
+                          </div>
+                        )}
+                        {!phone && !lead.owner.email && !mailing && (
+                          <div className="text-[9px] text-zinc-700 tracking-widest">NO_CONTACT_DATA</div>
+                        )}
+                      </td>
 
-                    {/* SEVERITY */}
-                    <td className="py-3 px-3 align-top whitespace-nowrap">
-                      <div className="text-[11px] font-mono tracking-wider" style={{ color: sev.color }}>
-                        {sev.label}
-                      </div>
-                      <div className="text-[9px] tracking-widest mt-0.5" style={{ color: sev.color, opacity: 0.65 }}>
-                        {sev.tag}
-                      </div>
-                    </td>
+                      {/* VIOLATION TYPE */}
+                      <td className="py-3 px-3 align-top">
+                        <div className="text-[10px] text-zinc-400 whitespace-nowrap tracking-wide">{lead.type}</div>
+                        {lead.description && lead.description !== lead.type && (
+                          <div className="text-[9px] text-zinc-700 mt-1 leading-snug max-w-[180px]">{lead.description}</div>
+                        )}
+                        <div className="text-[9px] text-zinc-700 mt-1">{lead.timestamp}</div>
+                      </td>
 
-                    {/* ACTION */}
-                    <td className="py-3 px-3 align-top">
-                      <GhlButton id={lead.id} synced={synced} onSync={handleSync} />
-                    </td>
-                  </tr>
-                )
-              })
-            )}
-          </tbody>
-        </table>
-      </div>
+                      {/* SEVERITY */}
+                      <td className="py-3 px-3 align-top whitespace-nowrap">
+                        <div className="text-[11px] font-mono tracking-wider" style={{ color: sev.color }}>
+                          {sev.label}
+                        </div>
+                        <div className="text-[9px] tracking-widest mt-0.5" style={{ color: sev.color, opacity: 0.65 }}>
+                          {sev.tag}
+                        </div>
+                        <div className="text-[9px] text-zinc-700 mt-1 tracking-widest">{lead.status}</div>
+                      </td>
+
+                      {/* ACTION */}
+                      <td className="py-3 px-3 align-top">
+                        <GhlButton id={lead.id} synced={synced} onSync={handleSync} />
+                      </td>
+                    </tr>
+                  )
+                })
+              )}
+            </tbody>
+          </table>
+        </div>
+      )}
 
       <HRule />
 
@@ -466,7 +448,7 @@ export default function App() {
           value={query}
           onChange={e => { setQuery(e.target.value); setHistIdx(-1) }}
           onKeyDown={handleKeyDown}
-          placeholder="Search by address, owner, or violation type..."
+          placeholder="Search by address, owner, case number, parcel ID, or violation type..."
           className="flex-1 bg-transparent border-none outline-none text-[11px] placeholder-zinc-700 caret-[#F8F8FF]"
           style={{ fontFamily: 'inherit', color: '#F8F8FF' }}
           autoFocus
@@ -491,7 +473,7 @@ export default function App() {
       {/* FOOTER */}
       <div className="px-4 sm:px-6 py-2 flex items-center justify-between border-t border-zinc-900">
         <span className="text-zinc-700 text-[10px] tracking-widest">CLASSIFICATION: PROPRIETARY // NAZCA_OPS</span>
-        <span className="text-zinc-700 text-[10px]">v2.0.0 / 2026</span>
+        <span className="text-zinc-700 text-[10px]">v3.0.0 / 2026</span>
       </div>
     </div>
   )
