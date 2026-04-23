@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://joselin.github.io/nazca-dashboard",
+  "homepage": "https://kikinpa-books.github.io/nazca-dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
