@@ -6,9 +6,13 @@
   html, body, #root {
     height: 100%;
     background-color: #000000;
-    color: #ffffff;
+    color: #F8F8FF;
     font-family: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
   }
+
+  /* Hide horizontal scrollbar on sector bar */
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+  .scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
 
   /* Thin scrollbar */
   ::-webkit-scrollbar { width: 4px; }
