@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-28T18:59:38Z",
+  "generated_at": "2026-04-28T20:39:08Z",
   "total": 85,
   "leads": [
     {
       "id": "B26-01586",
       "case_number": "B26-01586",
       "address": "9061 NW 16 ST PLANTATION FL 33322",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "COMAS, BRODY",
         "phone": "",
@@ -29,7 +29,7 @@
       "id": "B26-01566",
       "case_number": "B26-01566",
       "address": "1541 SW 52 AVE PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BAREFIELD, JAMESON",
         "phone": "",
@@ -52,7 +52,7 @@
       "id": "B26-01557",
       "case_number": "B26-01557",
       "address": "1541 SW 52 AVE PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BAREFIELD, JAMESON",
         "phone": "",
@@ -75,7 +75,7 @@
       "id": "E26-00456",
       "case_number": "E26-00456",
       "address": "900 NW 122 AVE PLANTATION FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GAERTNER, NICOL",
         "phone": "",
@@ -98,7 +98,7 @@
       "id": "B26-01444",
       "case_number": "B26-01444",
       "address": "5495 NW 10 CT 207 PLANTATION FL 33313",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ALVARADO YALTA, ALESSIO LUIS H/E YALTA MACPHERSON, SARELA CELIA",
         "phone": "",
@@ -121,7 +121,7 @@
       "id": "B26-01404",
       "case_number": "B26-01404",
       "address": "5495 NW 10 CT 207 PLANTATION FL 33313",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ALVARADO YALTA, ALESSIO LUIS H/E YALTA MACPHERSON, SARELA CELIA",
         "phone": "",
@@ -144,7 +144,7 @@
       "id": "B26-01410",
       "case_number": "B26-01410",
       "address": "900 NW 122 AVE PLANTATION FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GAERTNER, NICOL",
         "phone": "",
@@ -167,7 +167,7 @@
       "id": "M26-00410",
       "case_number": "M26-00410",
       "address": "6161 SW 15 ST PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TORRES, MARIA FE & CAMILO",
         "phone": "",
@@ -190,7 +190,7 @@
       "id": "B26-01313",
       "case_number": "B26-01313",
       "address": "861 N BEL AIR DR PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "AROSTEGUI, ALEXANDER M CRABTREE, ROBYN KIMBERLY",
         "phone": "",
@@ -213,7 +213,7 @@
       "id": "E26-00366",
       "case_number": "E26-00366",
       "address": "721 E COCO PLUM CIR 5 PLANTATION FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SOLOMON, RACHEL",
         "phone": "",
@@ -236,7 +236,7 @@
       "id": "B26-01284",
       "case_number": "B26-01284",
       "address": "301 E ACRE DR PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ROUSSEAU, MARTIN",
         "phone": "",
@@ -259,7 +259,7 @@
       "id": "B26-01118",
       "case_number": "B26-01118",
       "address": "5800 SW 19 ST PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "FRANCO, CAMILA ANDREA PACE, ROBERT JORDAN",
         "phone": "",
@@ -282,7 +282,7 @@
       "id": "B26-01123",
       "case_number": "B26-01123",
       "address": "5800 SW 19 ST PLANTATION FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "FRANCO, CAMILA ANDREA PACE, ROBERT JORDAN",
         "phone": "",
@@ -305,7 +305,7 @@
       "id": "B26-01119",
       "case_number": "B26-01119",
       "address": "721 E COCO PLUM CIR 5 PLANTATION FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SOLOMON, RACHEL",
         "phone": "",
@@ -328,7 +328,7 @@
       "id": "B26-01080",
       "case_number": "B26-01080",
       "address": "7451 NW 10 CT PLANTATION FL 33313",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "YOUNG, NICOLE A",
         "phone": "",
@@ -351,7 +351,7 @@
       "id": "M26-00297",
       "case_number": "M26-00297",
       "address": "4200 NW 3 CT 111 FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -374,7 +374,7 @@
       "id": "B26-00925",
       "case_number": "B26-00925",
       "address": "11400 NW 7 ST FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BALLESTAS, CARLOS E & CARMEN",
         "phone": "",
@@ -397,7 +397,7 @@
       "id": "B26-00902",
       "case_number": "B26-00902",
       "address": "11400 NW 7 ST FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BALLESTAS, CARLOS E & CARMEN",
         "phone": "",
@@ -420,7 +420,7 @@
       "id": "B26-00854",
       "case_number": "B26-00854",
       "address": "5791 PINE TER FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "MCALLISTER, DENNIS MICHAEL",
         "phone": "",
@@ -443,7 +443,7 @@
       "id": "B26-00826",
       "case_number": "B26-00826",
       "address": "370 HOLLOWAY DR FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ETKIN, JAMES M & DEBORAH G",
         "phone": "",
@@ -466,7 +466,7 @@
       "id": "E26-00243",
       "case_number": "E26-00243",
       "address": "5611 SW 7 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "HERTING, CHRISTOPHER D & HERTING, ELLEN K R",
         "phone": "",
@@ -489,7 +489,7 @@
       "id": "B26-00780",
       "case_number": "B26-00780",
       "address": "7451 NW 10 CT FL 33313",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "YOUNG, NICOLE A",
         "phone": "",
@@ -512,7 +512,7 @@
       "id": "B26-00755",
       "case_number": "B26-00755",
       "address": "721 E COCO PLUM CIR 5 FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -535,7 +535,7 @@
       "id": "B26-00693",
       "case_number": "B26-00693",
       "address": "11400 NW 7 ST FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BALLESTAS, CARLOS E & CARMEN",
         "phone": "",
@@ -558,7 +558,7 @@
       "id": "M26-00227",
       "case_number": "M26-00227",
       "address": "4200 NW 3 CT 111 FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -581,7 +581,7 @@
       "id": "B26-00572",
       "case_number": "B26-00572",
       "address": "7820 PETERS RD E100 FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -604,7 +604,7 @@
       "id": "B26-00540",
       "case_number": "B26-00540",
       "address": "675 FAIRWAY DR FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "OUTTEN, JENISTER",
         "phone": "",
@@ -627,7 +627,7 @@
       "id": "B26-00489",
       "case_number": "B26-00489",
       "address": "12051 NW 18 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "VANDENHOUTEN, AARON & ALLISON B",
         "phone": "",
@@ -650,7 +650,7 @@
       "id": "B26-00488",
       "case_number": "B26-00488",
       "address": "12051 NW 18 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "VANDENHOUTEN, AARON & ALLISON B",
         "phone": "",
@@ -673,7 +673,7 @@
       "id": "B26-00453",
       "case_number": "B26-00453",
       "address": "900 NW 122 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GAERTNER, NICOL",
         "phone": "",
@@ -696,7 +696,7 @@
       "id": "R26-00183",
       "case_number": "R26-00183",
       "address": "370 HOLLOWAY DR FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ETKIN, JAMES M & DEBORAH G",
         "phone": "",
@@ -719,7 +719,7 @@
       "id": "E26-00104",
       "case_number": "E26-00104",
       "address": "972 PINE RIDGE DR FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "PROGRESS RESIDENTIAL BORROWER 2 LLC",
         "phone": "",
@@ -742,7 +742,7 @@
       "id": "M26-00099",
       "case_number": "M26-00099",
       "address": "6851 NW 6 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SHIRLEY, SINDY H/E AUGUSTIN, JEANINE",
         "phone": "",
@@ -765,7 +765,7 @@
       "id": "P26-00059",
       "case_number": "P26-00059",
       "address": "6851 NW 6 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SHIRLEY, SINDY H/E AUGUSTIN, JEANINE",
         "phone": "",
@@ -788,7 +788,7 @@
       "id": "P26-00023",
       "case_number": "P26-00023",
       "address": "221 SW 53 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "KING, KENNETH R & THERESA A",
         "phone": "",
@@ -811,7 +811,7 @@
       "id": "E26-00025",
       "case_number": "E26-00025",
       "address": "221 SW 53 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "KING, KENNETH R & THERESA A",
         "phone": "",
@@ -834,7 +834,7 @@
       "id": "M26-00039",
       "case_number": "M26-00039",
       "address": "221 SW 53 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "KING, KENNETH R & THERESA A",
         "phone": "",
@@ -857,7 +857,7 @@
       "id": "B26-00150",
       "case_number": "B26-00150",
       "address": "632 NW 110 AVE FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "JACOBSON, MALLORY B & MATTHEW H",
         "phone": "",
@@ -880,7 +880,7 @@
       "id": "B25-05352",
       "case_number": "B25-05352",
       "address": "221 SW 53 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "KING, KENNETH R & THERESA A",
         "phone": "",
@@ -903,7 +903,7 @@
       "id": "B25-05259",
       "case_number": "B25-05259",
       "address": "221 SW 53 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "KING, KENNETH R & THERESA A",
         "phone": "",
@@ -926,7 +926,7 @@
       "id": "E25-01837",
       "case_number": "E25-01837",
       "address": "261 S FIG TREE LN FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TODESCA, MICHAEL",
         "phone": "",
@@ -949,7 +949,7 @@
       "id": "P25-01078",
       "case_number": "P25-01078",
       "address": "261 S FIG TREE LN FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TODESCA, MICHAEL",
         "phone": "",
@@ -972,7 +972,7 @@
       "id": "B25-05180",
       "case_number": "B25-05180",
       "address": "6851 NW 6 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SHIRLEY, SINDY H/E AUGUSTIN, JEANINE",
         "phone": "",
@@ -995,7 +995,7 @@
       "id": "R25-01702",
       "case_number": "R25-01702",
       "address": "5775 W SUNRISE BLVD FL 33313",
-      "city": "",
+      "city": "SUNRISE",
       "owner": {
         "name": "MOE'S INVESTMENT PROPERTIES LLC",
         "phone": "",
@@ -1018,7 +1018,7 @@
       "id": "B25-05089",
       "case_number": "B25-05089",
       "address": "261 S FIG TREE LN FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TODESCA, MICHAEL",
         "phone": "",
@@ -1041,7 +1041,7 @@
       "id": "B25-05056",
       "case_number": "B25-05056",
       "address": "7420 SW 5 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "MARCUS, STEVEN W & JENNIFER L",
         "phone": "",
@@ -1064,7 +1064,7 @@
       "id": "EN25-00296",
       "case_number": "EN25-00296",
       "address": "999 RIGHT OF WAY 0",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1087,7 +1087,7 @@
       "id": "B25-04876",
       "case_number": "B25-04876",
       "address": "899 NW 120 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "PLANTATION ACRES IMPROVEMENT DISTRICT",
         "phone": "",
@@ -1110,7 +1110,7 @@
       "id": "B25-04854",
       "case_number": "B25-04854",
       "address": "4200 SW 4 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "WEBER, GUY",
         "phone": "",
@@ -1133,7 +1133,7 @@
       "id": "B25-04764",
       "case_number": "B25-04764",
       "address": "361 NW 49 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "THOMPSON, CALVIN",
         "phone": "",
@@ -1156,7 +1156,7 @@
       "id": "B25-04711",
       "case_number": "B25-04711",
       "address": "4200 SW 4 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "WEBER, GUY",
         "phone": "",
@@ -1179,7 +1179,7 @@
       "id": "R25-01538",
       "case_number": "R25-01538",
       "address": "1710 N UNIVERSITY DR FL 33322",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "JDM-BHI HOLLYWOOD LLC",
         "phone": "",
@@ -1202,7 +1202,7 @@
       "id": "B25-04606",
       "case_number": "B25-04606",
       "address": "6851 NW 6 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SHIRLEY, SINDY H/E AUGUSTIN, JEANINE",
         "phone": "",
@@ -1225,7 +1225,7 @@
       "id": "R25-01515",
       "case_number": "R25-01515",
       "address": "8000 W BROWARD BLVD FC04 FL 33388",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1248,7 +1248,7 @@
       "id": "M25-00845",
       "case_number": "M25-00845",
       "address": "11810 NW 19 ST FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "CHEN, CHAO XIAO, JINLIAN",
         "phone": "",
@@ -1271,7 +1271,7 @@
       "id": "B25-04134",
       "case_number": "B25-04134",
       "address": "11650 NW 21 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GREEN, CASEY P & ANDREA J",
         "phone": "",
@@ -1294,7 +1294,7 @@
       "id": "B25-04132",
       "case_number": "B25-04132",
       "address": "11650 NW 21 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GREEN, CASEY P & ANDREA J",
         "phone": "",
@@ -1317,7 +1317,7 @@
       "id": "B25-04130",
       "case_number": "B25-04130",
       "address": "11650 NW 21 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GREEN, CASEY P & ANDREA J",
         "phone": "",
@@ -1340,7 +1340,7 @@
       "id": "B25-04126",
       "case_number": "B25-04126",
       "address": "12051 NW 18 CT FL 33323",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "VANDENHOUTEN, AARON & ALLISON B",
         "phone": "",
@@ -1363,7 +1363,7 @@
       "id": "B25-03938",
       "case_number": "B25-03938",
       "address": "1080 NW 89 AVE FL 33322",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "NAUS, MARY LOU",
         "phone": "",
@@ -1386,7 +1386,7 @@
       "id": "B25-03703",
       "case_number": "B25-03703",
       "address": "971 W COUNTRY CLUB CIR FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "CARVALHO, RODRIGO CORREA DE MACHADO, JACILENI",
         "phone": "",
@@ -1409,7 +1409,7 @@
       "id": "B25-03688",
       "case_number": "B25-03688",
       "address": "6851 NW 6 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SHIRLEY, SINDY H/E AUGUSTIN, JEANINE",
         "phone": "",
@@ -1432,7 +1432,7 @@
       "id": "P25-00764",
       "case_number": "P25-00764",
       "address": "6855 W BROWARD BLVD 201 FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1455,7 +1455,7 @@
       "id": "E25-01229",
       "case_number": "E25-01229",
       "address": "361 NW 49 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "THOMPSON, CALVIN",
         "phone": "",
@@ -1478,7 +1478,7 @@
       "id": "E25-01224",
       "case_number": "E25-01224",
       "address": "8000 PETERS RD A200 FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1501,7 +1501,7 @@
       "id": "E25-01056",
       "case_number": "E25-01056",
       "address": "6020 SW 17 CT FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TWEED, SCOTT",
         "phone": "",
@@ -1524,7 +1524,7 @@
       "id": "B25-03036",
       "case_number": "B25-03036",
       "address": "6020 SW 17 CT FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TWEED, SCOTT",
         "phone": "",
@@ -1547,7 +1547,7 @@
       "id": "B25-03035",
       "case_number": "B25-03035",
       "address": "6020 SW 17 CT FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "TWEED, SCOTT",
         "phone": "",
@@ -1570,7 +1570,7 @@
       "id": "B25-02947",
       "case_number": "B25-02947",
       "address": "0 N PINE ISLAND RD FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1593,7 +1593,7 @@
       "id": "B25-02356",
       "case_number": "B25-02356",
       "address": "631 NW 46 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SINGH, RAMLAL H & JOYCE MAY RAMLAL & JOYCE SINGH REV LIV TR",
         "phone": "",
@@ -1616,7 +1616,7 @@
       "id": "B25-01938",
       "case_number": "B25-01938",
       "address": "631 NW 46 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SINGH, RAMLAL H & JOYCE MAY RAMLAL & JOYCE SINGH REV LIV TR",
         "phone": "",
@@ -1639,7 +1639,7 @@
       "id": "B25-01733",
       "case_number": "B25-01733",
       "address": "899 NW 120 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "PLANTATION ACRES IMPROVEMENT DISTRICT",
         "phone": "",
@@ -1662,7 +1662,7 @@
       "id": "B25-01707",
       "case_number": "B25-01707",
       "address": "361 NW 49 AVE FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "THOMPSON, CALVIN",
         "phone": "",
@@ -1685,7 +1685,7 @@
       "id": "B25-01554",
       "case_number": "B25-01554",
       "address": "5201 W BROWARD BLVD FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "BLANCO, JOSE SALAZAR, DORA",
         "phone": "",
@@ -1708,7 +1708,7 @@
       "id": "P25-00226",
       "case_number": "P25-00226",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1731,7 +1731,7 @@
       "id": "E25-00415",
       "case_number": "E25-00415",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1754,7 +1754,7 @@
       "id": "M25-00196",
       "case_number": "M25-00196",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1777,7 +1777,7 @@
       "id": "B25-01370",
       "case_number": "B25-01370",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1800,7 +1800,7 @@
       "id": "B25-01302",
       "case_number": "B25-01302",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1823,7 +1823,7 @@
       "id": "R25-00390",
       "case_number": "R25-00390",
       "address": "8108 LAKEPOINTE DR FL 33322",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "ALBAN, ANA MILENA",
         "phone": "",
@@ -1846,7 +1846,7 @@
       "id": "B25-01209",
       "case_number": "B25-01209",
       "address": "191 NW 118 AVE FL 33325",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "GILL, SHEROLYN DANA E H/E GILL, CHERYL M H/E ETAL",
         "phone": "",
@@ -1869,7 +1869,7 @@
       "id": "B25-01033",
       "case_number": "B25-01033",
       "address": "6555 W BROWARD BLVD 207 FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1892,7 +1892,7 @@
       "id": "R25-00245",
       "case_number": "R25-00245",
       "address": "6061 SW 15 ST FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "SIEMER, WILLIAM J",
         "phone": "",
@@ -1915,7 +1915,7 @@
       "id": "B25-00223",
       "case_number": "B25-00223",
       "address": "8183 NW 8 MNR 9 FL 33324",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
@@ -1938,7 +1938,7 @@
       "id": "B25-00018",
       "case_number": "B25-00018",
       "address": "0 PETERS RD FL 33317",
-      "city": "",
+      "city": "PLANTATION",
       "owner": {
         "name": "UNKNOWN OWNER",
         "phone": "",
