@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T12:21:26Z",
+  "generated_at": "2026-04-29T14:36:40Z",
   "total": 4196,
   "leads": [
     {
@@ -32824,29 +32824,6 @@
       "bcpa_lookup_status": "not_found"
     },
     {
-      "id": "B26-00969",
-      "case_number": "B26-00969",
-      "address": "7001 W BROWARD BLVD PL 33317",
-      "city": "PLANTATION",
-      "owner": {
-        "name": "UNKNOWN OWNER",
-        "phone": "",
-        "email": "",
-        "mailing_street": "",
-        "mailing_city": "",
-        "mailing_state": "",
-        "mailing_zip": ""
-      },
-      "type": "BUILDING_PERMIT_SIGN_CHANGE_OF_QUALIFIER",
-      "description": "Building Permit — Sign — CHANGE OF QUALIFIER TO B20-04213 ---> INSTALL ILLUMINATED CHANNEL LETTER SET ON SOUTH ELEVATION",
-      "severity": 4,
-      "status": "OPEN",
-      "timestamp": "03/12/2026",
-      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=B26%2F00969&agencyCode=PLANTATION",
-      "parcel_id": "",
-      "bcpa_lookup_status": "not_found"
-    },
-    {
       "id": "P26-00206",
       "case_number": "P26-00206",
       "address": "201 S STATE ROAD 7 105 PL 33317",
@@ -50787,6 +50764,29 @@
       "bcpa_lookup_status": "not_found"
     },
     {
+      "id": "M26-00074",
+      "case_number": "M26-00074",
+      "address": "7500 NW 1 CT 303 PL 33317",
+      "city": "PLANTATION",
+      "owner": {
+        "name": "UNKNOWN OWNER",
+        "phone": "",
+        "email": "",
+        "mailing_street": "",
+        "mailing_city": "",
+        "mailing_state": "",
+        "mailing_zip": ""
+      },
+      "type": "MECHANICAL_PERMIT_REPLACEMENT_HVAC_REPLA",
+      "description": "Mechanical Permit — Replacement — HVAC Replacement 2.5 Ton",
+      "severity": 3,
+      "status": "OPEN",
+      "timestamp": "01/20/2026",
+      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=M26%2F00074&agencyCode=PLANTATION",
+      "parcel_id": "",
+      "bcpa_lookup_status": "not_found"
+    },
+    {
       "id": "E26-00056",
       "case_number": "E26-00056",
       "address": "8301 FEDERATED WEST PL 33324",
@@ -64403,29 +64403,6 @@
       "bcpa_lookup_status": "not_found"
     },
     {
-      "id": "B25-04524",
-      "case_number": "B25-04524",
-      "address": "10696 NW 12 MNR PL 33322",
-      "city": "PLANTATION",
-      "owner": {
-        "name": "UNKNOWN OWNER",
-        "phone": "",
-        "email": "",
-        "mailing_street": "",
-        "mailing_city": "",
-        "mailing_state": "",
-        "mailing_zip": ""
-      },
-      "type": "BUILDING_PROJECT_AAC_ALTERATION_CHANGE_O",
-      "description": "Building Project - AAC — Alteration — CHANGE OUT TUB FOR NEW ACRYLIC TUB UTILIZING EXISTING DRAIN AND SUPPLY. EL - INSTALL ONE DEDICATED 20 AMP 120 VOLT GFCI OUTLET FOR JETTED TUB.",
-      "severity": 4,
-      "status": "OPEN",
-      "timestamp": "10/23/2025",
-      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=B25%2F04524&agencyCode=PLANTATION",
-      "parcel_id": "",
-      "bcpa_lookup_status": "not_found"
-    },
-    {
       "id": "E25-01638",
       "case_number": "E25-01638",
       "address": "9701 N NEW RIVER CANAL RD 108 PL 33324",
@@ -64721,29 +64698,6 @@
       "status": "OPEN",
       "timestamp": "10/22/2025",
       "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=E25%2F01633&agencyCode=PLANTATION",
-      "parcel_id": "",
-      "bcpa_lookup_status": "not_found"
-    },
-    {
-      "id": "B25-04502",
-      "case_number": "B25-04502",
-      "address": "10380 GOLDEN EAGLE CT PL 33324",
-      "city": "PLANTATION",
-      "owner": {
-        "name": "UNKNOWN OWNER",
-        "phone": "",
-        "email": "",
-        "mailing_street": "",
-        "mailing_city": "",
-        "mailing_state": "",
-        "mailing_zip": ""
-      },
-      "type": "BUILDING_PERMIT_MISC_SCREEN_ENCLOSURE_IN",
-      "description": "Building Permit — Misc — Screen Enclosure (Insulated roof)",
-      "severity": 4,
-      "status": "OPEN",
-      "timestamp": "10/22/2025",
-      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=B25%2F04502&agencyCode=PLANTATION",
       "parcel_id": "",
       "bcpa_lookup_status": "not_found"
     },
@@ -82412,6 +82366,29 @@
       "bcpa_lookup_status": "not_found"
     },
     {
+      "id": "EN25-00143",
+      "case_number": "EN25-00143",
+      "address": "3911 W BROWARD BLVD PL 33311",
+      "city": "PLANTATION",
+      "owner": {
+        "name": "UNKNOWN OWNER",
+        "phone": "",
+        "email": "",
+        "mailing_street": "",
+        "mailing_city": "",
+        "mailing_state": "",
+        "mailing_zip": ""
+      },
+      "type": "ENGINEERING_PERMIT_PAVING_STRIPING_CHANG",
+      "description": "Engineering Permit — Paving & Striping — Change of contractor for EN24-00003 -   Drainage, Paving , Parking Striping, Curbs and Sidewalks for Publix Plaza site improvements",
+      "severity": 4,
+      "status": "OPEN",
+      "timestamp": "06/20/2025",
+      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=EN25%2F00143&agencyCode=PLANTATION",
+      "parcel_id": "",
+      "bcpa_lookup_status": "not_found"
+    },
+    {
       "id": "M25-00490",
       "case_number": "M25-00490",
       "address": "7591 NW 3 CT PL 333172277",
@@ -82707,6 +82684,29 @@
       "status": "OPEN",
       "timestamp": "06/17/2025",
       "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=B25%2F02657&agencyCode=PLANTATION",
+      "parcel_id": "",
+      "bcpa_lookup_status": "not_found"
+    },
+    {
+      "id": "B25-02654",
+      "case_number": "B25-02654",
+      "address": "7917 NW 7 CT PL 333241464",
+      "city": "PLANTATION",
+      "owner": {
+        "name": "UNKNOWN OWNER",
+        "phone": "",
+        "email": "",
+        "mailing_street": "",
+        "mailing_city": "",
+        "mailing_state": "",
+        "mailing_zip": ""
+      },
+      "type": "BUILDING_PERMIT_ROOFING_TEAR_OFF_REROOF_",
+      "description": "Building Permit — Roofing — TEAR OFF & REROOF TILE (BLDG 2 ON MAP)",
+      "severity": 3,
+      "status": "OPEN",
+      "timestamp": "06/17/2025",
+      "case_url": "https://aca-prod.accela.com/PLANTATION/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID=B25%2F02654&agencyCode=PLANTATION",
       "parcel_id": "",
       "bcpa_lookup_status": "not_found"
     },
